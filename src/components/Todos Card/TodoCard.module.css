@@ -1,0 +1,42 @@
+.TodoCard {
+  background-color: #161826;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.TodoCard h1 {
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.InputWrap {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.InputField {
+  width: 70%;
+}
+.AddBtn {
+  width: 30%;
+}
+.InputWrap input {
+  padding: 10px 0 10px 10px;
+  width: 93%;
+  border: 1px solid #510eee;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.InputWrap button {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #510eee;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}

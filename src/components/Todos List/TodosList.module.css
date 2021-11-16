@@ -1,0 +1,19 @@
+.TodoList {
+}
+.TodoList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  max-width: 500px;
+  width: 100%;
+  background-color: orange;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.BtnWrap {
+  display: flex;
+}
+.BtnWrap button:last-child {
+  margin-left: 10px;
+}
